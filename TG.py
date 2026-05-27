@@ -9,8 +9,7 @@ from telegram.ext import (
     filters
 )
 
-from autogen import AssistantAgent
-
+from autogen_agentchat.agents import AssistantAgent
 # LOAD ENV VARIABLES
 load_dotenv()
 
